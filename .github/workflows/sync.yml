@@ -26,7 +26,7 @@ jobs:
           target_repo_token: ${{ secrets.GITHUB_TOKEN }}
           upstream_sync_repo: wy876/POC
           upstream_sync_branch: main  # 原仓库的分支名
-          target_sync_branch: mian  # 您的 fork 的分支名
+          target_sync_branch: main  # 您的 fork 的分支名
           test_mode: false
 
       - name: Check for Failure
